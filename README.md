@@ -1,2 +1,2 @@
-# P-gina-ADM
+# Pagina-ADM
 Protótipo simples de página de administrador 
