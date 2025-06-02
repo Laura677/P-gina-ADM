@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adm.css">
+    <script src="bd.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body class="body" onload="local(); tabela1()">
+<div class="flex">
+    <div class="format">
+    <input type="text" class="place" id="pesquisar" placeholder="Pesquise aqui">
+    <div class="btn"><button type="button" class="btn btn-primary" onclick="buscar()">Buscar</button></div>
+    </div>
+    
+</div>
+<br>
+
+<div class="button1">
+    <button type="button" class="btn btn-info" onclick="adicionar()">Cadastrar</button>
+    <button type="button" class="btn btn-success " onclick="atualizar()">Atualizar</button>
+    <button type="button" class="btn btn-danger" onclick="limpar()">Apagar</button>
+</div>
+<br>
+
+<div class="config">
+    <p1>ID</p1>
+    <input type="text" id="id" class="bloco">
+</div>
+
+<div class="config">
+    <p1>Login</p1>
+    <input type="text" id="login" class="bloco">
+</div>
+
+<div class="config">
+    <p1>Senha</p1>
+    <input type="text" id="senha" class="bloco">
+</div>
+
+<br>
+<br>
+
+<div class="center"><h1><strong>Usuários</strong></h1></div>
+<div class="container mt-4">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Usuário</th>
+        <th>Senha</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-corpo">
+
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
